@@ -25,13 +25,13 @@ const Hero = () => {
 
         </div>
 
-        <div className="flex justify-center mt-10 lg:px-20 md:px-10">
-            <video autoPlay loop muted className='w-1/2 rounded-lg border border-orange-700 shadow-sm shadow-orange-400 my-4 mx-2'>
+        <div className="flex flex-col items-center justify-center mt-10 lg:px-20 sm:flex-row sm:px-10">
+            <video autoPlay loop muted className='w-3/2 sm:w-1/2 rounded-lg border border-orange-700 shadow-sm shadow-orange-400 my-4 mx-2'>
                 <source src={video1} type="video/mp4"/>
                 Your browser does not suppport this video
             </video>
 
-            <video autoPlay loop muted className='w-1/2 rounded-lg border border-orange-700 shadow-sm shadow-orange-400 my-4 mx-2'>
+            <video autoPlay loop muted className='w-3/2 sm:w-1/2 rounded-lg border border-orange-700 shadow-sm shadow-orange-400 my-4 mx-2'>
                 <source src={video2} type="video/mp4"/>
                 Your browser does not suppport this video
             </video>
