@@ -15,9 +15,13 @@ const Hero = () => {
 
         <div className="flex justify-center my-10 space-x-12">
         
-        <a href='#' className='py-2 px-3 bg-gradient-to-r from-orange-500 to-orange-800 rounded-md'>Start for free</a>
+        <a href='#' className='py-2 px-3 bg-gradient-to-r from-orange-500 to-orange-800 rounded-md'>
+            Try for free
+            </a>
 
-        <a href='#' className='py-2 px-3 border rounded-md'>Documentation</a>
+        <a href='#' className='py-2 px-3 border rounded-md'>
+            Documentation
+        </a>
 
         </div>
 
